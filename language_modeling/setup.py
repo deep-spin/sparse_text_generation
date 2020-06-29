@@ -40,8 +40,8 @@ setup(
     name="pytorch_transformers",
     version="1.2.0",
     description="Repository of pre-trained NLP Transformer models: BERT & RoBERTa, GPT & GPT-2, Transformer-XL, XLNet and XLM",
-    long_description=open("README.md", "r", encoding='utf-8').read(),
-    long_description_content_type="text/markdown",
+
+    
     keywords='NLP deep learning transformer pytorch BERT GPT GPT-2 google openai CMU',
     license='Apache',
     url="https://github.com/huggingface/pytorch-transformers",
