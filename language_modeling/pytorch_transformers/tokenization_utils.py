@@ -627,7 +627,10 @@ class PreTrainedTokenizer(object):
             return 0
 
         if not isinstance(new_tokens, list):
-            new_tokens = [new_tokens]
+            new = new_tokens
+            new_tokens = []
+            for token in new:
+                new_tokens.append(token)
 
         to_add_tokens = []
         for token in new_tokens:
