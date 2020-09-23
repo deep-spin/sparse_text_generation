@@ -39,7 +39,7 @@ def compute_jsd(p, q, base=np.e):
 
 def compute_sp(p, target):
     p=np.asarray(p.cpu())
-    return 0.5*np.linalg.norm(p)**2 - p[target]+0.5
+    return 1-(0.5*np.linalg.norm(p)**2 - p[target]+0.5)
 
 def build_input(persona, history, reply, tokenizer, lm_labels=False, with_eos=True):
     bos, eos, speaker1, speaker2 = tokenizer.convert_tokens_to_ids(SPECIAL_TOKENS[:-1])
