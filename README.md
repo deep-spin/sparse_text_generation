@@ -81,7 +81,7 @@ A large portion of the code comes from the awesome Huggingface [Transformers](ht
 # Citation
 
     @inproceedings{martins21sparse,
-      author    = {Martins, Pedro Henrique and Marinho, Zita and  Andr{\'e} FT Martins},
+      author    = {Martins, Pedro Henrique and Marinho, Zita and  Martins, Andr{\'e} FT},
       title     = {Sparse Text Generation},
       booktitle = {Proc. EMNLP (to appear)},
       year      = {2021},
