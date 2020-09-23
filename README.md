@@ -1,7 +1,7 @@
 
 # Sparse Text Generation
 
-This repository for our paper [Sparse Text Generation](https://arxiv.org/abs/2004.02644).
+This is the repository for our paper [Sparse Text Generation](https://arxiv.org/abs/2004.02644).
 
 # Installation
 Before running the code, you need to install the dependencies by running the following lines.
