@@ -83,6 +83,6 @@ A large portion of the code comes from the awesome Huggingface [Transformers](ht
     @inproceedings{martins20sparse,
       author    = {Martins, Pedro Henrique and Marinho, Zita and  Martins, Andr{\'e} FT},
       title     = {Sparse Text Generation},
-      booktitle = {Proc. EMNLP (to appear)},
+      booktitle = {Proc. EMNLP},
       year      = {2020}
     }
